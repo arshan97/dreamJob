@@ -1,16 +1,11 @@
 .header {
+  min-width: 1234px;
   position: relative;
   display: flex;
   align-items: center;
   justify-content: space-between;
   font-family: "Inter", sans-serif;
   padding: 30px;
-
-  @media (max-width: 1000px) {
-    flex-direction: column;
-    gap: 30px;
-    align-items: flex-start;
-  }
 
   &__logo {
     font-weight: bold;
@@ -38,22 +33,16 @@
   }
 
   &__menu {
-    width: 40vw;
+    width: 30rem;
     display: flex;
     justify-content: space-between;
   }
 
   &__account {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     width: 300px;
-    margin-right: 5rem;
-
-    @media (max-width: 1300px) {
-      justify-content: flex-end;
-      width: 30vw;
-      gap: 10px;
-    }
+    margin-right: 2;
 
     span {
       padding: 15px 30px;

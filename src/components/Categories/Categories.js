@@ -16,7 +16,9 @@ const Categories = () => {
         </div>
       </div>
 
-      <h1 className="jobs-category__title">Browse Jobs By Category</h1>
+      <div className="jobs-category__title">
+        <h1>Browse Jobs By Category</h1>
+      </div>
 
       <div className="jobs-category__cards">
         <Card icon="/assets/design.svg" title="Design & Development" description="Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit." />

@@ -2,9 +2,7 @@
   display: flex;
   font-family: Inter, "sans-serif";
   height: 80vh;
-  @media (max-width: 1000px) {
-    flex-direction: column;
-  }
+
   &__jobs {
     padding: 70px 100px;
 
@@ -41,8 +39,8 @@
       background-position: center;
       background-repeat: no-repeat;
       background-size: cover;
-      width: 900px;
-      height: 800px;
+      width: 700px;
+      height: 600px;
     }
   }
 }

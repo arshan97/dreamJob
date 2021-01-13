@@ -1,38 +1,31 @@
 .jobs-category {
   &__header {
     position: relative;
-    margin-top: 100px;
 
     .rectangle {
-      img {
-        width: 100vw;
-        height: 65vh;
-      }
+      margin-left: -120px;
     }
+
     .companies {
       position: absolute;
-      top: 43%;
-      left: 15%;
-      @media (max-width: 1300px) {
-        top: 47%;
-      }
-      img {
-        width: 70vw;
-      }
+      top: 160px;
+      left: 30px;
     }
   }
 
   &__title {
-    font-size: 50px;
-    font-weight: bold;
-    text-align: center;
-    font-size: 24px;
+    margin-left: 30rem;
+
+    h1 {
+      font-size: 20px;
+      font-weight: bold;
+    }
   }
 
   &__cards {
     padding: 60px 40px;
-    display: flex;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
     gap: 20px;
 
     .card {
@@ -63,16 +56,15 @@
   }
 
   &__button {
-    width: 15vw;
-    margin: 0 auto;
     padding-bottom: 80px;
     button {
+      width: 20rem;
+      margin-left: 28rem;
       color: white;
       background-color: #1c2333;
       border: none;
       border-radius: 52px;
       padding: 20px 30px;
-      width: 200px;
       outline: none;
       cursor: pointer;
     }
