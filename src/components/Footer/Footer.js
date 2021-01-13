@@ -47,7 +47,7 @@ const Footer = () => {
 
         <div className="footer__about">
           <h2>DREAMJOB.</h2>
-          <p>lorem ipsum lorem ipsum lorem ipsum lorem ipsum.</p>
+          <p>lorem ipsum lorem ipsum.</p>
           <div className="links">
             <img src="/assets/twitter.svg" alt="twitter" />
             <img src="/assets/google-plus.svg" alt="google" />

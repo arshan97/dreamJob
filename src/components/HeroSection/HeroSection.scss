@@ -2,7 +2,7 @@
   display: flex;
   font-family: Inter, "sans-serif";
   height: 80vh;
-  @media (max-width: 1300px) {
+  @media (max-width: 1000px) {
     flex-direction: column;
   }
   &__jobs {
