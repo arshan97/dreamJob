@@ -43,7 +43,7 @@ const JobSeekerSection = () => {
   return (
     <div className="jobseeker-section">
       <div className="jobseeker-section__logo">
-        <img src={current.image} />
+        <img src={current.image} alt="people" />
       </div>
 
       <div className="jobseeker-section__about">
@@ -52,8 +52,8 @@ const JobSeekerSection = () => {
         <h2>{current.author}</h2>
         <p>{current.position}</p>
         <div className="jobseeker-section__about__buttons">
-          <img className="back" onClick={handleBack} src="/assets/back-arrow.svg" />
-          <img className="forward" onClick={handleForward} src="/assets/forward-arrow.svg" />
+          <img className="back" alt="back-arrow" onClick={handleBack} src="/assets/back-arrow.svg" />
+          <img className="forward" alt="forward-arrow" onClick={handleForward} src="/assets/forward-arrow.svg" />
         </div>
       </div>
     </div>

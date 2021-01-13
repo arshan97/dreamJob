@@ -49,9 +49,9 @@ const Footer = () => {
           <h2>DREAMJOB.</h2>
           <p>lorem ipsum lorem ipsum lorem ipsum lorem ipsum.</p>
           <div className="links">
-            <img src="/assets/twitter.svg" />
-            <img src="/assets/google-plus.svg" />
-            <img src="/assets/facebook.svg" />
+            <img src="/assets/twitter.svg" alt="twitter" />
+            <img src="/assets/google-plus.svg" alt="google" />
+            <img src="/assets/facebook.svg" alt="facebook" />
           </div>
         </div>
       </div>

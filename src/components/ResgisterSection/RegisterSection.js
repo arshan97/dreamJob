@@ -14,7 +14,7 @@ const RegisterSection = () => {
       </div>
 
       <div className="register-section__image">
-        <img src="/assets/people.png" />
+        <img src="/assets/people.png" alt="people" />
       </div>
     </div>
   )

@@ -7,7 +7,7 @@ const Subscribe = () => {
       <div className="subscribe__wrapper">
         <h1 className="title">Subscribe to our newsletter for the weekly updates.</h1>
         <div className="submit">
-          <img src="/assets/mail.svg" />
+          <img src="/assets/mail.svg" alt="mail" />
           <input type="email" />
           <span>Subscribe</span>
         </div>
