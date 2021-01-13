@@ -1,0 +1,98 @@
+.jobs-category {
+  &__header {
+    position: relative;
+    margin-top: -110px;
+    @media (max-width: 1300px) {
+      margin-top: 0;
+    }
+    .rectangle {
+      img {
+        width: 100vw;
+        height: 65vh;
+      }
+    }
+    .companies {
+      position: absolute;
+      top: 43%;
+      left: 15%;
+      @media (max-width: 1300px) {
+        top: 47%;
+      }
+      img {
+        width: 70vw;
+      }
+    }
+  }
+
+  &__title {
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 40px;
+    @media (max-width: 1300px) {
+      margin-top: -200px;
+      font-size: 20px;
+    }
+  }
+
+  &__cards {
+    padding: 60px 150px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+
+    @media (max-width: 1300px) {
+      gap: 100px;
+    }
+
+    .card {
+      width: 350px;
+      height: 250px;
+      box-shadow: 0px 15px 20px #7474741a;
+      border-radius: 20px;
+      display: grid;
+      padding: 20px 30px;
+      transition: 0.5s ease-in-out;
+
+      @media (max-width: 1300px) {
+        height: 400px;
+        min-width: 400px;
+      }
+
+      &:hover {
+        box-shadow: 0px 30px 40px #74747440;
+      }
+
+      &__description {
+        font-size: 26px;
+        line-height: 35px;
+        width: 15vw;
+        @media (max-width: 1300px) {
+          font-size: 16px;
+        }
+      }
+
+      &__secondary-description {
+        color: #747474;
+        font-size: 16px;
+        line-height: 25px;
+      }
+    }
+  }
+
+  &__button {
+    width: 15vw;
+    margin: 0 auto;
+    padding-bottom: 80px;
+    button {
+      color: white;
+      background-color: #1c2333;
+      border: none;
+      border-radius: 52px;
+      padding: 20px 30px;
+      width: 200px;
+      outline: none;
+      cursor: pointer;
+    }
+  }
+}

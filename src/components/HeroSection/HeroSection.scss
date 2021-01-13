@@ -1,0 +1,48 @@
+.hero-section {
+  display: flex;
+  font-family: Inter, "sans-serif";
+  height: 80vh;
+  @media (max-width: 1300px) {
+    flex-direction: column;
+  }
+  &__jobs {
+    padding: 70px 100px;
+
+    &__header {
+      font-size: 50px;
+      font-weight: bold;
+      line-height: 80px;
+      letter-spacing: 2px;
+      white-space: nowrap;
+      margin-bottom: 40px;
+    }
+
+    &__description {
+      color: #747474;
+      font-size: 18px;
+      white-space: nowrap;
+      margin-bottom: 40px;
+    }
+
+    &__button {
+      button {
+        border: none;
+        border-radius: 52px;
+        background-color: #1c2333;
+        color: white;
+        padding: 20px 30px;
+        font-size: 18px;
+      }
+    }
+  }
+
+  &__image {
+    img {
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      width: 900px;
+      height: 800px;
+    }
+  }
+}

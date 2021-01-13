@@ -1,0 +1,54 @@
+.subscribe {
+  padding: 150px;
+  &__wrapper {
+    background-color: #fab8c4;
+    border-radius: 200px;
+    width: 50vw;
+    margin: 0 auto;
+    padding: 100px 200px;
+    @media (max-width: 1300px) {
+      width: 60vw;
+    }
+  }
+  .title {
+    font-size: 50px;
+    color: white;
+    margin-bottom: 30px;
+  }
+
+  .submit {
+    text-align: center;
+    position: relative;
+    img {
+      position: absolute;
+      left: 120px;
+      top: 22px;
+      width: 20px;
+      @media (max-width: 1300px) {
+        left: 30px;
+      }
+    }
+
+    input {
+      border-radius: 50px;
+      padding: 20px 30px;
+      width: 400px;
+      font-size: 18px;
+      text-align: center;
+      outline: none;
+    }
+
+    span {
+      background-color: #1c2333;
+      color: white;
+      border-radius: 50px;
+      padding: 20px 30px;
+      cursor: pointer;
+      @media (max-width: 1300px) {
+        display: inline-block;
+        margin-top: 80px;
+        width: 200px;
+      }
+    }
+  }
+}
